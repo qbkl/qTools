@@ -1,0 +1,165 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: qTools 1.0.0\n"
+"POT-Creation-Date: 2015-12-15 01:35+0200\n"
+"PO-Revision-Date: 2015-12-15 01:37+0200\n"
+"Last-Translator: \n"
+"Language-Team: QBKL Studio <office@qbkl.net>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: __;_e;_x;_n;_ex;_nx;esc_html__;esc_html_e;esc_html_x;"
+"esc_attr__;esc_attr_e;esc_attr_x;_n_noop;_nx_noop;translate_nooped_plural\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: lang\n"
+"X-Poedit-SearchPathExcluded-1: img\n"
+
+#: inc/qtools-widget-author-info.php:15
+msgid "qTools: Author Info"
+msgstr "qTools : Info de l’auteur"
+
+#: inc/qtools-widget-author-info.php:16
+msgid "Post author info box"
+msgstr "Boîte de l'info de l'auteur"
+
+#: inc/qtools-widget-author-info.php:46
+#, php-format
+msgid "%s's Website"
+msgstr "Site Web de %s"
+
+#: inc/qtools-widget-author-info.php:56
+msgid "Post Author"
+msgstr "Auteur de l’article"
+
+#: inc/qtools-widget-author-info.php:63 inc/qtools-widget-same-author.php:110
+msgid "This widget will only show when a user is on a single post page."
+msgstr "Ce widget est affiché uniquement sur la page de l'article singulier."
+
+#: inc/qtools-widget-author-info.php:65
+#: inc/qtools-widget-latest-category.php:99
+#: inc/qtools-widget-latest-posts.php:95 inc/qtools-widget-same-author.php:112
+msgid "Widget title:"
+msgstr "Titre du Widget:"
+
+#: inc/qtools-widget-author-info.php:69
+msgid "Author Gravatar:"
+msgstr "Gravatar de l’auteur :"
+
+#: inc/qtools-widget-author-info.php:70
+msgid "Display Gravatar?"
+msgstr "Afficher Gravatar?"
+
+#: inc/qtools-widget-author-info.php:73
+msgid "Author Bio:"
+msgstr "Bio de l’auteur :"
+
+#: inc/qtools-widget-author-info.php:74
+msgid "Display bio?"
+msgstr "Afficher bio?"
+
+#: inc/qtools-widget-author-info.php:77
+msgid "Author Website:"
+msgstr "Site Web de l’auteur :"
+
+#: inc/qtools-widget-author-info.php:78
+msgid "Display website link?"
+msgstr "Afficher le Site Web de l’auteur?"
+
+#: inc/qtools-widget-author-info.php:81
+msgid "Boxed display:"
+msgstr "Afficher dans boîte:"
+
+#: inc/qtools-widget-author-info.php:82
+msgid "Add box around info?"
+msgstr "Ajouter boîte autour de l'info?"
+
+#: inc/qtools-widget-latest-category.php:15
+msgid "qTools: Latest from Category"
+msgstr "qTools: Récent dans catégorie(s)"
+
+#: inc/qtools-widget-latest-category.php:16
+msgid "Latest posts from category"
+msgstr "Articles récents de la catégorie"
+
+#: inc/qtools-widget-latest-category.php:50
+#: inc/qtools-widget-latest-posts.php:49 inc/qtools-widget-same-author.php:58
+msgid "in"
+msgstr "dans"
+
+#: inc/qtools-widget-latest-category.php:82
+#: inc/qtools-widget-latest-posts.php:81 inc/qtools-widget-same-author.php:95
+msgid "No posts found!"
+msgstr "Aucun articles trouvés!"
+
+#: inc/qtools-widget-latest-category.php:89
+msgid "Latest in category"
+msgstr "Récent dans catégorie"
+
+#: inc/qtools-widget-latest-category.php:103
+msgid "Choose category(-ies):"
+msgstr "Choisissez la catégorie"
+
+#: inc/qtools-widget-latest-category.php:142
+#: inc/qtools-widget-latest-posts.php:99 inc/qtools-widget-same-author.php:116
+msgid "Number of posts (1-8):"
+msgstr "Nombre d'articles"
+
+#: inc/qtools-widget-latest-category.php:146
+#: inc/qtools-widget-latest-posts.php:103 inc/qtools-widget-same-author.php:120
+msgid "Thumbnails:"
+msgstr "Imagette"
+
+#: inc/qtools-widget-latest-category.php:147
+#: inc/qtools-widget-latest-posts.php:104 inc/qtools-widget-same-author.php:121
+msgid "Display thumbnails?"
+msgstr "Afficher les imagettes?"
+
+#: inc/qtools-widget-latest-category.php:150
+#: inc/qtools-widget-latest-posts.php:107 inc/qtools-widget-same-author.php:124
+msgid "Post meta:"
+msgstr "Meta de l'article:"
+
+#: inc/qtools-widget-latest-category.php:151
+#: inc/qtools-widget-latest-posts.php:108 inc/qtools-widget-same-author.php:125
+msgid "Display author &amp; category?"
+msgstr "Afficher l'auteur et la catégorie ?"
+
+#: inc/qtools-widget-latest-posts.php:15
+msgid "qTools: Latest Posts"
+msgstr "qTools: Articles récents"
+
+#: inc/qtools-widget-latest-posts.php:16
+msgid "Latest posts from blog"
+msgstr "Articles récents du blogue"
+
+#: inc/qtools-widget-latest-posts.php:88
+msgid "Latest content"
+msgstr "Contenu récent"
+
+#: inc/qtools-widget-same-author.php:15
+msgid "qTools: From Same Author"
+msgstr "qTools: Du même auteur"
+
+#: inc/qtools-widget-same-author.php:16
+msgid "Latest posts from same author"
+msgstr "Articles récents du même auteur"
+
+#: inc/qtools-widget-same-author.php:91
+msgid "More posts"
+msgstr "Plus d'articles"
+
+#: inc/qtools-widget-same-author.php:103
+msgid "By same author"
+msgstr "Du même auteur"
+
+#: inc/qtools-widget-same-author.php:128
+msgid "Randomize:"
+msgstr "Randomiser:"
+
+#: inc/qtools-widget-same-author.php:129
+msgid "Display random posts?"
+msgstr "Afficher articles aléatoires?"
