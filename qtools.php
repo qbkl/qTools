@@ -46,17 +46,5 @@ class qTools {
 		require_once( plugin_dir_path(__FILE__) . 'inc/qtools-widget-same-author.php' );
 		require_once( plugin_dir_path(__FILE__) . 'inc/qtools-widget-author-info.php' );
 	}
-	
-	public function qTools_sanitize_checkbox( $value ) {
-		$valid_array = array( 'on' );
-
-		$sanitized_value = '';
-
-		if ( in_array( strtolower( $value ), $valid_array ) ) {
-			$sanitized_value = 'on';
-		}
-		
-		return $sanitized_value;
-	}
 }
 ?>
