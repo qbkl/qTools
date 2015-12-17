@@ -18,3 +18,9 @@ It's recommended that you Upgrade from the _Dashboard > Update_ menu rather than
 After the upgrade, the plugin folder will receive a new name, based on the release ID which will cause the plugin to deactive. You will have to manually reactivate the plugin after updating it.
 
 _**Note:**_ Upon deactivation / deletion, the qTools plugin does not delete plugin added data and settings.
+
+## Available translations
+
+So far, the plugin has been translated to:
+1. French
+2. Romanian
