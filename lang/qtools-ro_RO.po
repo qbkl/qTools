@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: qTools 1.0.0\n"
 "POT-Creation-Date: 2015-12-15 01:35+0200\n"
-"PO-Revision-Date: 2015-12-17 19:49+0200\n"
+"PO-Revision-Date: 2015-12-17 20:13+0200\n"
 "Last-Translator: \n"
 "Language-Team: QBKL Studio <office@qbkl.net>\n"
 "Language: fr\n"
@@ -79,7 +79,7 @@ msgstr "Adaugă casetă in jurul informației?"
 
 #: inc/qtools-widget-latest-category.php:15
 msgid "qTools: Latest from Category"
-msgstr "qTools: Recente din categories"
+msgstr "qTools: Recente din categorie"
 
 #: inc/qtools-widget-latest-category.php:16
 msgid "Latest posts from category"
