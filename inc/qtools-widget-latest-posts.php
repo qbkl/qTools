@@ -8,7 +8,8 @@ add_action( 'widgets_init', create_function( '', 'return register_widget("qTools
 
 
 // Widget Class
-class qToolsLatestPosts extends WP_Widget {
+if ( ! class_exists( 'qToolsLatestPosts' ) ) {
+	class qToolsLatestPosts extends WP_Widget {
 	public function __construct() {
 		parent::__construct(
 			'qtools_latest_posts', // Base ID
@@ -131,5 +132,6 @@ class qToolsLatestPosts extends WP_Widget {
 
 		return $instance;
 	}
+}
 }
 ?>

@@ -16,35 +16,39 @@ Text Domain:       qtools
 
 // Loading translations
 
-add_action('plugins_loaded', 'qtools_load_textdomain');
-function qtools_load_textdomain() {
-	load_plugin_textdomain( 'qtools', false, dirname( plugin_basename(__FILE__) ) . '/lang/' );
+add_action( 'plugins_loaded', 'qtools_load_textdomain' );
+if ( ! function_exists( 'qtools_load_textdomain' ) ) {
+	function qtools_load_textdomain() {
+		load_plugin_textdomain( 'qtools', false, dirname( plugin_basename(__FILE__) ) . '/lang/' );
+	}
+}
+
+// qTools Class
+
+if ( ! class_exists( 'qTools' ) ) {
+	class qTools {
+		public function __construct() {
+
+			// Loading dependencies
+			$this->qTools_load_dependencies();
+		}
+
+		private function qTools_load_dependencies() {
+
+			// Loading shorcodes
+			require_once( plugin_dir_path(__FILE__) . 'inc/qtools-shortcodes.php' );
+
+			// Loading widgets
+			require_once( plugin_dir_path(__FILE__) . 'inc/qtools-widget-latest-posts.php' );
+			require_once( plugin_dir_path(__FILE__) . 'inc/qtools-widget-latest-category.php' );
+			require_once( plugin_dir_path(__FILE__) . 'inc/qtools-widget-same-author.php' );
+			require_once( plugin_dir_path(__FILE__) . 'inc/qtools-widget-author-info.php' );
+		}
+	}
 }
 
 
 // Initiating qTools
 
 $qtools = new qTools();
-
-// qTools Class
-
-class qTools {
-	public function __construct() {
-		
-		// Loading dependencies
-		$this->qTools_load_dependencies();
-	}
-	
-	private function qTools_load_dependencies() {
-	
-		// Loading shorcodes
-		require_once( plugin_dir_path(__FILE__) . 'inc/qtools-shortcodes.php' );
-
-		// Loading widgets
-		require_once( plugin_dir_path(__FILE__) . 'inc/qtools-widget-latest-posts.php' );
-		require_once( plugin_dir_path(__FILE__) . 'inc/qtools-widget-latest-category.php' );
-		require_once( plugin_dir_path(__FILE__) . 'inc/qtools-widget-same-author.php' );
-		require_once( plugin_dir_path(__FILE__) . 'inc/qtools-widget-author-info.php' );
-	}
-}
 ?>
